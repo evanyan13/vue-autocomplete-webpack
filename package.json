@@ -1,0 +1,39 @@
+{
+  "name": "vue-autocomplete-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "scripts": {
+    "serve": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanyan13/vue-autocomplete-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evanyan13/vue-autocomplete-webpack/issues"
+  },
+  "homepage": "https://github.com/evanyan13/vue-autocomplete-webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "vue": "^2.7.16",
+    "vue-loader": "^15.11.1",
+    "vue-template-compiler": "^2.7.16",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "@constructor-io/constructorio-client-javascript": "^2.62.3",
+    "@constructor-io/constructorio-ui-autocomplete": "^1.23.25"
+  }
+}
